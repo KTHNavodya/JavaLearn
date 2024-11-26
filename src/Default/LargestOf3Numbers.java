@@ -19,7 +19,7 @@ public class LargestOf3Numbers {
 
         //Appraoch1 - Logic
 
-        if(a>b && a>c)
+        /*if(a>b && a>c)
         {
             System.out.println(a+ "is Largest Number");
         }
@@ -30,7 +30,14 @@ public class LargestOf3Numbers {
         else
         {
             System.out.println(c+ "is Largest Number");
-        }
-        
+        }*/
+
+        //Ternary Operator
+
+        int largest1=a>b?a:b;  //largest of a & b
+
+        int largest2=c>largest1?c:largest1;  //largest of c & largest1
+
+        System.out.println(largest2+" is largest Number");
     }
 }
