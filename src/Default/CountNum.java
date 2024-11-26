@@ -3,7 +3,7 @@ package Default;
 public class CountNum {
     public static void main (String [] args){
 
-        int num = 123456;
+        int num = 1234;
         int count=0;
 
        /* int check =num;
