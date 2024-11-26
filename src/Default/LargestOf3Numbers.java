@@ -34,10 +34,12 @@ public class LargestOf3Numbers {
 
         //Ternary Operator
 
-        int largest1=a>b?a:b;  //largest of a & b
+        //int largest1=a>b?a:b;  //largest of a & b
 
-        int largest2=c>largest1?c:largest1;  //largest of c & largest1
+        //int largest2=c>largest1?c:largest1;  //largest of c & largest1
 
-        System.out.println(largest2+" is largest Number");
+        int largest=c>(a>b?a:b)?c:(a>b?a:b);
+
+        System.out.println(largest+" is largest Number");
     }
 }
