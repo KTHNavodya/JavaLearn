@@ -9,19 +9,27 @@ public class EvenandOddArray {
         //Extracting even numbers.........
 
         System.out.println("Even numbers in array.............");
-        for(int i=0; i<a.length;i++)
+        /*for(int i=0; i<a.length;i++)
 
         {
             if(a[i]%2==0)
                 System.out.println(a[i]);
+        }*/
+
+        //Enhanced for loop
+
+        for(int value:a)
+        {
+            if(value%2==0)
+                System.out.println(value);  //2 4 6
         }
 
-        System.out.println("Odd numbers in array.............");
-        for(int i=0; i<a.length;i++)
+        //System.out.println("Odd numbers in array.............");
+        /*for(int i=0; i<a.length;i++)
 
         {
             if(a[i]%2!=0)
                 System.out.println(a[i]);
-        }
+        }*/
     }
 }
