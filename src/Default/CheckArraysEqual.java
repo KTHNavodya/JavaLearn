@@ -1,3 +1,7 @@
+import java.util.Arrays;
+
+
+
 public class CheckArraysEqual 
 {
     public static void main(String[] args){
