@@ -6,7 +6,7 @@ public class CheckArraysEqual
 {
     public static void main(String[] args){
 
-        int a1[]={1,2,3,4,5};
+        int a1[]={1,2,3,4,7};
         int a2[]={1,2,3,4,5};
 
         boolean status=Arrays.equals(a1,a2);
