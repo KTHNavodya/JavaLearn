@@ -7,7 +7,7 @@ public class CheckArraysEqual
 
         //Appraoch1
 
-        /*boolean status=Arrays.equals(a1,a2);
+        /*boolean status=Arays.equals(a1,a2);
 
         if(status==true)
         {
